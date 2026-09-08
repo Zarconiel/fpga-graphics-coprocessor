@@ -42,7 +42,6 @@ O diagrama de blocos de alto nível, a descrição detalhada de cada módulo, a 
 | FPGA | Intel/Altera Cyclone V, `5CSEMA5F31C6` |
 | Ferramenta | Quartus Prime (testado na versão 20.1.1) |
 | Saída de vídeo | Monitor com entrada VGA |
-| Programação | Cabo USB-Blaster |
 
 ## Como compilar e gravar (reprodução)
 
