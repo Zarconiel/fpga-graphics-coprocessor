@@ -5,7 +5,7 @@ Universidade Estadual de Feira de Santana (UEFS), Departamento de Tecnologia, Á
 
 ## Sobre o projeto
 
-Este repositório contém o núcleo de um coprocessador gráfico em Verilog, desenvolvido para a placa **Terasic DE1-SoC** (FPGA Intel/Altera Cyclone V, modelo `5CSEMA5F31C6`), inspirado na arquitetura de consoles de 16 bits. O núcleo gera continuamente um sinal de vídeo VGA a partir de três camadas gráficas — plano de fundo baseado em *tiles*, *sprites* e polígonos rasterizados — combinadas por um compositor de prioridades.
+Este repositório contém o núcleo de um coprocessador gráfico em Verilog, desenvolvido para a placa **Terasic DE1-SoC** (FPGA Intel/Altera Cyclone V, modelo `5CSEMA5F31C6`), inspirado na arquitetura de consoles de 16 bits. O núcleo gera continuamente um sinal de vídeo VGA a partir de três camadas gráficas, plano de fundo baseado em *tiles*, *sprites* e polígonos rasterizados, combinadas por um compositor de prioridades.
 
 O projeto foi pensado para, em etapas futuras do curso, ser controlado por um driver em Assembly ARM (via MMIO) e utilizado por uma aplicação de jogo em C. Nesta primeira etapa, apenas o núcleo gráfico em FPGA foi desenvolvido; a interface de comandos de 32 bits já está definida no formato final, mas ainda é apenas demonstrativa (ver [Limitações conhecidas](#limitações-conhecidas-e-funcionalidades-não-atendidas)).
 
