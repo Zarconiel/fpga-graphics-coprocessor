@@ -141,4 +141,4 @@ O *Timing Analyzer* do Quartus reporta *setup slack* negativo para o clock de v�
 
 ## Documentação completa
 
-O relatório técnico completo (Manual do Sistema e Manual do Usuário, no formato exigido pela disciplina) está disponível em [`docs/relatorio.pdf`](docs/relatorio.pdf).
+O relatório técnico completo (Manual do Sistema e Manual do Usuário, no formato exigido pela disciplina) está disponível em [`relatorio.pdf`](relatorio.pdf).
