@@ -90,7 +90,7 @@ A pinagem completa de cada estado (o que cada chave/botão faz e o pino físico 
 ├── sprite_rom.v / sprite_rom_bb.v           # ROM dos padrões de sprite (IP altsyncram)
 ├── tilemap.mif / tilepattern.mif / sprite_patterns.mif  # Conteúdo inicial das memórias
 ├── output_files/                    # Arquivos de síntese (.sof, relatórios do Quartus)
-└── docs/relatorio.pdf               # Relatório técnico completo (Manual do Sistema e do Usuário)
+└── docs/relatorio.pdf               # Relatório completo (Manual do Sistema e do Usuário)
 ```
 
 ## Memórias ROM e RAM
@@ -101,7 +101,7 @@ A pinagem completa de cada estado (o que cada chave/botão faz e o pino físico 
 | `tile_pattern_rom` | ROM | 16384 × 8 bits | Desenhos de até 256 padrões de tile 8×8, fixos, carregados via `.mif` |
 | `sprite_rom` | ROM | 8192 × 8 bits | Desenhos de até 32 padrões de sprite 16×16, fixos, carregados via `.mif` |
 
-A justificativa completa da escolha de ROM vs. RAM para cada memória está no relatório técnico.
+A justificativa completa da escolha de ROM vs. RAM para cada memória está no relatório.
 
 ## Testes planejados
 
