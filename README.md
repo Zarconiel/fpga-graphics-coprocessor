@@ -1,4 +1,4 @@
-# Núcleo de um Coprocessador Gráfico em FPGA — DE1-SoC
+# Núcleo de um Coprocessador Gráfico em FPGA - DE1-SoC
 
 MI - Sistemas Digitais (2026.2) — Problema #1
 Universidade Estadual de Feira de Santana (UEFS), Departamento de Tecnologia, Área de Eletrônica
